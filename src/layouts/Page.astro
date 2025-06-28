@@ -20,10 +20,10 @@ const { title, description, heroImage } = Astro.props;
   </head>
 
   <body
-    class="px-4 text-gray-600 dark:text-gray-400 bg-amber-50 dark:bg-gray-900"
+    class="px-4 text-gray-600 dark:text-gray-400 bg-amber-50 dark:bg-gray-900 min-h-screen flex flex-col"
   >
     <Header />
-    <main class="max-w-4xl mx-auto">
+    <main class="max-w-4xl mx-auto flex-grow">
       <article>
         <h1 class="text-center mb-4">{title}</h1>
         {
