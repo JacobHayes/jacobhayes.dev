@@ -1,15 +1,6 @@
 version: 2
 enable-beta-ecosystems: true
 updates:
-  - package-ecosystem: github-actions
-    directory: /
-    groups:
-      deps:
-        patterns:
-          - "*"
-    schedule:
-      interval: weekly
-      day: "monday"
   - package-ecosystem: "bun"
     directory: "/"
     groups:
