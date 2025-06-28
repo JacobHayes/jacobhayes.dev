@@ -3,6 +3,7 @@
 .direnv/
 .env
 .env.*
+.wrangler/
 dist/
 node_modules/
 result

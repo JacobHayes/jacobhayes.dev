@@ -1,0 +1,14 @@
+"$schema" = 'node_modules/wrangler/config-schema.json'
+
+name = "jacobhayes-dev"
+compatibility_date = "2025-06-25"
+routes = [{ pattern = "jacobhayes.dev", custom_domain = true }]
+
+[assets]
+directory = "./dist"
+
+[build]
+command = "bun astro build"
+
+[observability]
+enabled = true
