@@ -1,0 +1,34 @@
+---
+import githubMarkDark from "../assets/github-mark-dark.svg";
+import githubMarkLight from "../assets/github-mark-light.svg";
+
+const today = new Date();
+---
+
+<footer class="py-8 pb-24 text-center text-gray-600">
+  <hr />
+  &copy; {today.getFullYear()} Jacob Hayes. All rights reserved.
+  <div class="flex justify-center gap-4 mt-4">
+    <a
+      href="https://github.com/JacobHayes"
+      target="_blank"
+      class="no-underline text-gray-600 hover:text-gray-800"
+    >
+      <span class="sr-only">Go to my GitHub</span>
+      <img
+        src={githubMarkDark.src}
+        alt="GitHub"
+        width="32"
+        height="32"
+        class="block dark:hidden"
+      />
+      <img
+        src={githubMarkLight.src}
+        alt="GitHub"
+        width="32"
+        height="32"
+        class="hidden dark:block"
+      />
+    </a>
+  </div>
+</footer>

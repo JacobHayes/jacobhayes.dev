@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+  a {
+    @apply transition-colors hover:text-gray-800 dark:hover:text-gray-500;
+  }
+}

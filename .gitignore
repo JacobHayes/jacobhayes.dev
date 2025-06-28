@@ -1,0 +1,9 @@
+.DS_Store
+.astro/
+.direnv/
+.env
+.env.*
+dist/
+node_modules/
+result
+result-*
