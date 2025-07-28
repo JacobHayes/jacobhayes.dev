@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "prettier-plugin-astro": "^0.14.1",
-    "wrangler": "^4.22.0"
+    "wrangler": "^4.26.0"
   },
   "name": "jacobhayes-dev",
   "type": "module",
