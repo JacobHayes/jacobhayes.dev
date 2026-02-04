@@ -23,3 +23,20 @@ repos:
         language: system
         entry: scripts/strip-image-metadata.sh
         files: \.(jpg|jpeg|png|tiff|tif)$
+      - id: prettier
+        name: Prettier
+        language: system
+        entry: bunx prettier --write --ignore-unknown
+        types: [text]
+      - id: astro-check
+        name: Astro Check
+        language: system
+        entry: bunx astro check
+        pass_filenames: false
+        types: [text]
+      - id: astro-build
+        name: Astro Build
+        language: system
+        entry: bunx astro build
+        pass_filenames: false
+        types: [text]
