@@ -7,9 +7,9 @@
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.2.2",
     "playwright": "^1.62.1",
-    "sharp": "^0.35.3",
+    "sharp": "^0.35.4",
     "tailwindcss": "^4.3.3",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "devDependencies": {
     "prettier-plugin-astro": "^0.14.1",
