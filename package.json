@@ -9,7 +9,7 @@
     "playwright": "^1.63.0",
     "sharp": "^0.35.4",
     "tailwindcss": "^4.3.3",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "devDependencies": {
     "prettier-plugin-astro": "^1.0.0",
